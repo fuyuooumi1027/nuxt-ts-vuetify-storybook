@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
+    "core-js": "2.6.9",
     "nuxt": "^2.0.0",
     "vue-property-decorator": "^8.4.1"
   },
