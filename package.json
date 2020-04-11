@@ -12,7 +12,8 @@
     "test": "jest",
     "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
     "storybook": "start-storybook -p 6006 -s ./static",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "heroku-postbuild": "npm run build"
   },
   "lint-staged": {
     "*.{ts,js,vue}": "yarn lint"
